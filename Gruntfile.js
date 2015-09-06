@@ -110,7 +110,8 @@ module.exports = function (grunt) {
     critical: {
     dist: {
       options: {
-        base: './'
+        base: './',
+        minify: true
       },
       // The source file
       src: 'index.html',
