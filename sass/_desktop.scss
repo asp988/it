@@ -1,0 +1,64 @@
+@media only screen and (min-width: 700px) {
+.wrapper{
+		width: 960px;
+		margin: 0 auto;
+		@include pie-clearfix;
+	}
+	.column-left{
+			float: left;
+			width: 20%;
+			padding: 2% 3% 2% 1%;
+	}
+		.column-left-logo{
+			width: 80%;
+		}
+		.column-left-caption{
+			margin-top: 10%;
+			line-height: 0.9em;
+		}
+		.column-left-nav-menu{
+			padding: 1%;
+			padding-top: 20%;
+		}
+			.column-left-nav-menu-item-link, .column-left-nav-menu-item-link:active, .column-left-nav-menu-item-link:visited{
+				padding-left: 0;
+				margin: 0;
+			}
+			.column-left-nav-menu-item-link:hover{
+				padding-left: 6%;
+			}
+	.column-right{
+		width: 68%;
+		padding: 2% 1% 2% 7%;
+		float: left;
+	}
+		.column-right-contacts{
+
+		}
+			.column-right-contacts-map{
+				width: 45%;
+				display: block;
+				float: right;
+				margin: 0;
+			}
+			.column-right-contacts-phone{
+				line-height: 1em;
+			}
+			.column-right-contacts-address{
+
+			}
+			.column-right-contacts-callback{
+				margin: 7% 0 2% 0;
+			}
+
+		.column-right-info{
+
+		}
+}
+@media only screen and (min-width: 700px) and (max-width: 960px){
+.wrapper{
+		width: 700px;
+		font-size: 68%;
+	}
+
+}

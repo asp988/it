@@ -1,0 +1,33 @@
+@media only screen and (max-width: 699px) {
+		.column-left-caption{
+			line-height: 0.9em;
+			position: relative;
+			top: -0.2em;
+		}
+		.column-left-nav-trigger{
+			display: block;
+			padding: 0.3em 0;
+			font-family: $font-sans;
+			font-weight: 700;
+			color: $brand-color;
+			position: relative;
+			top: -0.2em;
+			left: 1.3em;
+		}
+		.column-left-nav-menu{
+			display: none;
+		}
+		.column-left-nav-checkbox:checked ~ .column-left-nav-menu{
+			display: block;
+		}
+				.column-right-contacts-callback-form-name, .column-right-contacts-callback-form-phone{
+					@include box-sizing(border-box);
+					width: 49%;
+					height: 3em;
+					padding: 1em;
+				}
+				.column-right-contacts-callback-form-button{
+					margin-top: 0.3em;
+					width: 99%;
+				}
+}
