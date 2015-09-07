@@ -5,9 +5,12 @@
 		@include pie-clearfix;
 	}
 	.column-left{
+			position: fixed;
+			height: 95vh;
+			overflow: auto;
 			float: left;
-			width: 20%;
-			padding: 2% 3% 2% 1%;
+			width: 192px;
+			padding: 19px 29px 19px 9px;
 	}
 		.column-left-logo{
 			width: 80%;
@@ -29,7 +32,7 @@
 			}
 	.column-right{
 		width: 68%;
-		padding: 2% 1% 2% 7%;
+		padding: 2% 1% 2% 27%;
 		float: left;
 	}
 		.column-right-contacts{
@@ -60,5 +63,9 @@
 		width: 700px;
 		font-size: 68%;
 	}
+		.column-left{
+			width: 140px;
+			padding: 14px 21px 14px 7px;
+		}
 
 }
