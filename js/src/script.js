@@ -5,9 +5,7 @@ document.getElementById("column-right-contacts-callback-form-button").addEventLi
         phone = document.getElementById("column-right-contacts-callback-form-phone").value,
         path = window.location.pathname,
         message = 'message=' + encodeURIComponent("name: "+name+", phone: "+phone+", path:"+path);
-    xhr.onprogress = function() {
-        document.getElementById("column-right-contacts-callback-form-button").innerHTML = ".........";
-    };
+    document.getElementById("column-right-contacts-callback-form-button").innerHTML = "отправка......";
     xhr.open("GET", 'm.php?' + message, true);
     xhr.onload = function() {
         document.getElementById("column-right-contacts-callback-form-button").innerHTML = "ожидайте звонка!";
