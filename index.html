@@ -4,12 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="description" content="Ремонт компьютеров, ноутбуков и оргтехники - IT сфера - Главная">
+    <meta name="keywords" content="ремонт компьютеров Буча, заправка картриджей Буча, ремонт ноутбуков Буча, обслуживание компьютеров Буча"/>
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<link href="//www.google-analytics.com" rel="dns-prefetch">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -18,43 +19,43 @@
 	<title>test</title>
 </head>
 <body>
-	<div class="wrapper">
+	<div class="wrapper" itemscope itemtype="http://schema.org/LocalBusiness">
 		<div class="column-left">
-			<img class="column-left-logo" src="images/logo.svg" alt="I.T. сфера">
-			<h1 class="column-left-caption">Сервисный<br> Центр</h1>
+			<a class="column-left-mainpagelink" href="/"><img class="column-left-logo" src="images/logo.svg" alt="I.T. сфера"></a>
+			<a class="column-left-mainpagelink" href="/"><h1 class="column-left-caption">Сервисный<br> Центр</h1></a>
 			<nav class="column-left-nav">
 				<label class="column-left-nav-trigger" for="column-left-nav-checkbox">меню</label>
 				<input id="column-left-nav-checkbox" class="column-left-nav-checkbox" type="checkbox">
 				<ul class="column-left-nav-menu">
-					<li class="column-left-nav-menu-item"><a href="" class="column-left-nav-menu-item-link">Ремонт компьютеров</a></li>
-					<li class="column-left-nav-menu-item"><a href="" class="column-left-nav-menu-item-link">Заправка картриджей</a></li>
-					<li class="column-left-nav-menu-item"><a href="" class="column-left-nav-menu-item-link">Ремонт принтеров</a></li>
-					<li class="column-left-nav-menu-item"><a href="" class="column-left-nav-menu-item-link">Ремонт ноутбуков</a></li>
-					<li class="column-left-nav-menu-item"><a href="" class="column-left-nav-menu-item-link">Сборка компьютеров</a></li>
-					<li class="column-left-nav-menu-item"><a href="" class="column-left-nav-menu-item-link">Настройка сетей</a></li>
-					<li class="column-left-nav-menu-item"><a href="" class="column-left-nav-menu-item-link">Установка программ</a></li>
+					<li class="column-left-nav-menu-item"><a href="/remont-komputerov" class="column-left-nav-menu-item-link">Ремонт компьютеров</a></li>
+					<li class="column-left-nav-menu-item"><a href="/zapravka" class="column-left-nav-menu-item-link">Заправка картриджей</a></li>
+					<li class="column-left-nav-menu-item"><a href="/remont-printerov" class="column-left-nav-menu-item-link">Ремонт принтеров</a></li>
+					<li class="column-left-nav-menu-item"><a href="/remont-noutbukov" class="column-left-nav-menu-item-link">Ремонт ноутбуков</a></li>
+					<li class="column-left-nav-menu-item"><a href="/sborka-komputerov" class="column-left-nav-menu-item-link">Сборка компьютеров</a></li>
+					<li class="column-left-nav-menu-item"><a href="/nastroyka-setey" class="column-left-nav-menu-item-link">Настройка сетей</a></li>
+					<li class="column-left-nav-menu-item"><a href="/ustanovka-programm" class="column-left-nav-menu-item-link">Установка программ</a></li>
 				</ul>
 			</nav>
 		</div>
 		<div class="column-right">
 			<div class="column-right-contacts">
 				<img class="column-right-contacts-map" src="images/map.svg" alt="">
-				<div class="column-right-contacts-phone">067-724-81-70</div>
-				<div class="column-right-contacts-phone">099-643-59-99</div>
-				<div class="column-right-contacts-phone">063-917-74-26</div>
-				<div class="column-right-contacts-address">г.Буча, ул.Энергетиков 8</div>
+				<div class="column-right-contacts-phone"><strong class="phone">067-724-81-70</span></div>
+				<div class="column-right-contacts-phone"><strong class="phone">099-643-59-99</span></div>
+				<div class="column-right-contacts-phone"><strong class="phone">063-917-74-26</span></div>
+				<div class="column-right-contacts-address"><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">г.Буча</span>, <span itemprop="streetAddress">ул.Энергетиков 8</span></span>, <span itemprop="description">сервисный центр</span> "<span itemprop="name">IT сфера</span>"</div>
 				<div class="column-right-contacts-callback">
-					<form class="column-right-contacts-callback-form" action=""></form>
-					<input class="column-right-contacts-callback-form-name" type="text" placeholder="Имя">
-					<input class="column-right-contacts-callback-form-phone" type="text" placeholder="Телефон">
-					<button class="column-right-contacts-callback-form-button">заказать звонок</button>
+					<form id="column-right-contacts-callback-form" class="column-right-contacts-callback-form" action=""></form>
+					<input id="column-right-contacts-callback-form-name" class="column-right-contacts-callback-form-name" type="text" placeholder="Имя">
+					<input id="column-right-contacts-callback-form-phone" class="column-right-contacts-callback-form-phone" type="text" placeholder="Телефон">
+					<button id="column-right-contacts-callback-form-button" class="column-right-contacts-callback-form-button">заказать звонок</button>
 					</form>
 				</div>
 			</div>
 			<div class="column-right-info">
 				<h2 class="column-right-info-caption">Ремонт компьютеров в Буче</h2>
 				<p class="column-right-info-paragraph">
-					Наша фирма предоставит профессиональную помощь Вашему компьютеру, мы осуществляем ремонт компьютерной техники в наиболее короткие сроки.
+					<a href="/">Наша фирма</a> предоставит профессиональную помощь Вашему компьютеру, мы осуществляем ремонт компьютерной техники в наиболее короткие сроки.
 					Если Ваш компьютер начал издавать посторонние звуки, самостоятельно выключаться, жутко тормозить, а то и вовсе перестал реагировать на ваши команды - самое время отвезти его в наш сервисный центр. Здесь мы:
 				</p>
 				<ul class="column-right-info-list">
@@ -68,11 +69,34 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript">
-        var script = document.createElement("script");
+    <script type="text/javascript">
+        var script = document.createElement("script"), scriptRemarketing = document.createElement("script");
         script.type = "text/javascript";
-        script.src="js/src/script.js";
+        script.src="/js/src/script.js";
         document.body.appendChild(script);
+        scriptRemarketing.type = "text/javascript";
+        scriptRemarketing.src="//www.googleadservices.com/pagead/conversion.js";
+        document.body.appendChild(scriptRemarketing);
     </script>
+    <script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-61161485-1', 'auto');
+	ga('send', 'pageview');
+	/* <![CDATA[ */
+	var google_conversion_id = 951941989;
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/951941989/?value=0&amp;guid=ON&amp;script=0"/>
+	</div>
+    </noscript>
 </body>
 </html>

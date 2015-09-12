@@ -1,0 +1,35 @@
+User-agent: *
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /trackback
+Disallow: */trackback
+Disallow: */*/trackback
+Disallow: */*/feed/*/
+Disallow: */feed
+Disallow: /*?*
+Disallow: /tag
+Disallow: /news
+Disallow: /bk
+Disallow: /services
+ 
+User-agent: Yandex
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /trackback
+Disallow: */trackback
+Disallow: */*/trackback
+Disallow: */*/feed/*/
+Disallow: */feed
+Disallow: /*?*
+Disallow: /tag
+Disallow: /news
+Disallow: /bk
+Disallow: /services
+Host: http://it-sphere.net.ua
+
