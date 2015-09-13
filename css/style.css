@@ -191,49 +191,53 @@ a:visited {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: none;
+  font-family: "PT Serif", serif;
   border: 1px solid #009846;
   width: 30%;
   height: 3em;
   padding: 1em;
 }
 
-/* line 106, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .column-right-contacts-callback-form-button {
-  transition: all 0.5s ease;
-  font-family: "Roboto Condensed", sans-serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: all 0.7s ease;
+  font-family: "PT Serif", serif;
   font-weight: 700;
-  line-height: 2.8em;
+  height: 3em;
   padding: 0 1em;
   outline: none;
   border: 1px solid #009846;
   background-color: #ffffff;
 }
 
-/* line 116, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .column-right-contacts-callback-form-button:focus, .column-right-contacts-callback-form-button:hover {
   color: #009846;
   border: 1px solid #2e2e2e;
 }
 
-/* line 120, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .column-right-info {
   padding-top: 6%;
   font-size: 1em;
   line-height: 1.71429em;
 }
 
-/* line 124, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .column-right-info-caption {
   font-weight: 700;
   margin-bottom: 1em;
 }
 
-/* line 128, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .column-right-info-paragraph {
   margin-bottom: 1em;
 }
 
-/* line 131, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .column-right-info-list {
   list-style: disc;
   padding-left: 1.5em;

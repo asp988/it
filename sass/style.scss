@@ -98,16 +98,18 @@ a:visited{
 				.column-right-contacts-callback-form-name, .column-right-contacts-callback-form-phone{
 					@include box-sizing(border-box);
 					outline: none;
+					font-family: $font-serif;
 					border: 1px solid $brand-color;
 					width: 30%;
 					height: 3em;
 					padding: 1em;
 				}
 				.column-right-contacts-callback-form-button{
-					transition: all 0.5s ease;
-					font-family: $font-sans;
+					@include box-sizing(border-box);
+					transition: all 0.7s ease;
+					font-family: $font-serif;
 					font-weight: 700;
-					line-height: 2.8em;
+					height: 3em;
 					padding: 0 1em;
 					outline: none;
 					border: 1px solid $brand-color;
