@@ -67,7 +67,10 @@ a:visited{
 				margin-left: -1%;
 				border-bottom: none;
 			}
-			.column-left-nav-menu-item-link:hover{
+			.column-left-nav-menu-item-link_active, .column-left-nav-menu-item-link_active:link, .column-left-nav-menu-item-link_active:active, .column-left-nav-menu-item-link_active:visited{
+				background-color:lighten($basic-color, 60);
+			}
+			.column-left-nav-menu-item-link:hover, .column-left-nav-menu-item-link_active:hover{
 				color:$white-color;
 				background-color:$basic-color;
 			}

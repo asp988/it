@@ -27,6 +27,9 @@
 			.column-left-nav-menu-item-link:hover{
 				padding-left: 6%;
 			}
+			.column-left-nav-menu-item-link_active, .column-left-nav-menu-item-link_active:link, .column-left-nav-menu-item-link_active:active, .column-left-nav-menu-item-link_active:visited{
+				padding-left: 6%;
+			}
 	.column-right{
 		width: 68%;
 		padding: 2% 1% 2% 7%;

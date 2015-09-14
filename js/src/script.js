@@ -4,13 +4,14 @@ document.getElementById("column-right-contacts-callback-form-button").addEventLi
         name = document.getElementById("column-right-contacts-callback-form-name").value,
         phone = document.getElementById("column-right-contacts-callback-form-phone").value,
         path = window.location.pathname,
-        message = 'message=' + encodeURIComponent("name: "+name+", phone: "+phone+", path:"+path);
+        message = 'message=' + encodeURIComponent("name: "+name+", phone: "+phone+", path: "+path);
     document.getElementById("column-right-contacts-callback-form-button").innerHTML = "отправка......";
-    xhr.open("GET", 'm.php?' + message, true);
+    xhr.open("GET", '/m.php?' + message, true);
     xhr.onload = function() {
         document.getElementById("column-right-contacts-callback-form-button").innerHTML = "ожидайте звонка!";
     };
     xhr.send();
+    e.preventDefault();
     return false;
 });
 
