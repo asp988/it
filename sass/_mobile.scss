@@ -11,13 +11,15 @@
 			font-weight: 700;
 			color: $brand-color;
 			position: relative;
-			top: -0.2em;
 			left: 1.3em;
 		}
 		.column-left-nav-menu{
 			display: none;
 		}
 		.column-left-nav-checkbox:checked ~ .column-left-nav-menu{
+			display: block;
+		}
+		.column-left-nav-checkbox:checked + .column-left-nav-menu{
 			display: block;
 		}
 				.column-right-contacts-callback-form-name, .column-right-contacts-callback-form-phone{

@@ -84,8 +84,9 @@ a:visited { color: #616161; border-bottom: 1px dotted #616161; }
   .column-right-contacts-callback { margin: 7% 0 2% 0; } }
 @media only screen and (min-width: 700px) and (max-width: 960px) { .wrapper { width: 700px; font-size: 68%; } }
 @media only screen and (max-width: 699px) { .column-left-caption { line-height: 0.9em; position: relative; top: -0.2em; }
-  .column-left-nav-trigger { display: block; padding: 0.3em 0; font-family: "Roboto Condensed", sans-serif; font-weight: 700; color: #009846; position: relative; top: -0.2em; left: 1.3em; }
+  .column-left-nav-trigger { display: block; padding: 0.3em 0; font-family: "Roboto Condensed", sans-serif; font-weight: 700; color: #009846; position: relative; left: 1.3em; }
   .column-left-nav-menu { display: none; }
   .column-left-nav-checkbox:checked ~ .column-left-nav-menu { display: block; }
+  .column-left-nav-checkbox:checked + .column-left-nav-menu { display: block; }
   .column-right-contacts-callback-form-name, .column-right-contacts-callback-form-phone { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; width: 49%; height: 3em; padding: 1em; }
   .column-right-contacts-callback-form-button { margin-top: 0.3em; width: 99%; } }
